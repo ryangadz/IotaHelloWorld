@@ -1,0 +1,9 @@
+{
+  "name": "iota-hello-world",
+  "version": "0.0.0",
+  "description": "IotaHelloWorld",
+  "main": "app.js",
+  "author": {
+    "name": "ryang"
+  }
+}
