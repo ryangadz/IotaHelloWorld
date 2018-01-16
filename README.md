@@ -21,3 +21,8 @@ You don't need to have your own full node you can use one of the listed at https
 
 so far this will connect to an iota full node of your choice and give details about that node. 
 for more APIs go to https://iota.readme.io/v1.2.0/reference
+
+# TODO
+enter a wallet seed 
+"spend" tokens with message "hello world"
+reattach to tangle if transaction is still pending after a few min 
