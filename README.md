@@ -2,6 +2,7 @@
 Learning how to use Iota tangle with a simple open source project. 
 
 First make sure you understand the basic concepts of Iota, generating a seed, and a full node.
+https://iota.readme.io/docs
 You don't need to have your own full node you can use one of the listed at https://iotanode.host/
 
 Super noob directions (skip if you already have visual studio, node.js,  github etc:
