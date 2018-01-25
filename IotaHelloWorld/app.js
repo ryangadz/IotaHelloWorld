@@ -1,7 +1,7 @@
 'use strict';
 
 //console.log('Hello world');
-console.log('i am 133t u r n00b');
+console.log('changes from laptop with vs code');
 
 const IOTA = require('iota.lib.js')
 
