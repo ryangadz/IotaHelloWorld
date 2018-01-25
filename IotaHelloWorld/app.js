@@ -22,7 +22,7 @@ iota.api.getNodeInfo((error, nodeInfo) => {
 
 var seed = 'W99RJ9M9A9IKOHB9BFGDKLP9CORGD9HHKQ99BNEWUVI9QVQOOVH9GQN9DDFHQJMJT9O9BQOWOMY9EJX9Y' // keep it secure!
 var options = {
-    index: 3,
+    index: 1,
     checksum: true
 }
 
@@ -34,10 +34,10 @@ iota.api.getNewAddress(seed, options, function (error, address) {
     var transfer = [{
         address: address,
         value: 0,
-        message: iota.utils.toTrytes('Hello World!'),
+        message: iota.utils.toTrytes('Hello World! again'),
         tag: ''
     }]
-    // depth for the tip selection
+    // depth for the tip selection default 4
     var depth = 4;
     // If we're on the mainnet, minWeightMagnitude is 18
     var minWeightMagnitude = 18;
