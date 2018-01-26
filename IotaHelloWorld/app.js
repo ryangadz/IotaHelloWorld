@@ -1,7 +1,7 @@
 'use strict';
 
 //console.log('Hello world');
-console.log('i am 133t u r n00b');
+console.log('changes from laptop with vs code');
 
 const IOTA = require('iota.lib.js')
 
@@ -22,7 +22,7 @@ iota.api.getNodeInfo((error, nodeInfo) => {
 
 var seed = 'W99RJ9M9A9IKOHB9BFGDKLP9CORGD9HHKQ99BNEWUVI9QVQOOVH9GQN9DDFHQJMJT9O9BQOWOMY9EJX9Y' // make your own seed
 var options = {
-    index: 3,
+    index: 1,
     checksum: true
 }
 
@@ -34,11 +34,15 @@ iota.api.getNewAddress(seed, options, function (error, address) {
     var transfer = [{
         address: address,
         value: 0,
-        message: iota.utils.toTrytes('Hello World!'),
+        message: iota.utils.toTrytes('Hello World! again'),
         tag: ''
     }]
+<<<<<<< HEAD
 
     // depth for the tip selection
+=======
+    // depth for the tip selection default 4
+>>>>>>> a42c0bb2e965a7d53540f4799bba9dfc8871f571
     var depth = 4;
 
     // on the mainnet, minWeightMagnitude is 18
